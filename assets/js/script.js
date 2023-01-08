@@ -13,9 +13,11 @@ var fourPmBtn = $("#four-pm-save-to-page");
 var fivePmBtn = $("#five-pm-save-to-page");
 var sixPmBtn = $("#six-pm-save-to-page");
 var sevenPmBtn = $("#seven-pm-save-to-page");
+
 //grabs all the textarea tags and puts them in an array
 var timeArray = $("textarea").get()
 console.log(timeArray)
+
 //Turns all textareas in to jquery objects
 var textAreaSevenAm = $(timeArray[0]);
 var textAreaEightAm = $(timeArray[1]);
@@ -30,6 +32,7 @@ var textAreaFourPm = $(timeArray[9]);
 var textAreaFivePm = $(timeArray[10]);
 var textAreaSixPm = $(timeArray[11]);
 var textAreaSevenPm = $(timeArray[12]);
+
 //storage variables
 var dailyTasks = {
   sevenAm: "",
