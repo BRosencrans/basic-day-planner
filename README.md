@@ -10,7 +10,7 @@
 ![Page during work hours](https://raw.githubusercontent.com/BRosencrans/basic-day-planner/main/assets/screenshots-and-demos/scheduler-screenshot.png)
 ![Page after work hours](https://raw.githubusercontent.com/BRosencrans/basic-day-planner/main/assets/screenshots-and-demos/scheduler-screenshot-02.png)
 
-## Demo
+## Localstorage Demo
 ![local storage demo](https://raw.githubusercontent.com/BRosencrans/basic-day-planner/main/assets/screenshots-and-demos/local-save-demo.gif)
 
 ## Credits
