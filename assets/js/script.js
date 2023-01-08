@@ -33,8 +33,13 @@ var textAreaFivePm = $(timeArray[10])
 var textAreaSixPm = $(timeArray[11])
 var textAreaSevenPm = $(timeArray[12])
 
-
-
+//function to display current time
+function currentTime() {
+var clock = $("#currentDay")
+clock.text(dayjs().format("dddd MMMM DD YYYY, hh:mm:ss A  "))
+}
+currentTime()
+setInterval(currentTime, 1000)
 
 //$(function  () {
   // TODO: Add a listener for click events on the save button. This code should
